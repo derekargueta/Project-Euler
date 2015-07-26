@@ -2,7 +2,7 @@ import math
 
 matrix = []
 
-with open('13.txt', 'rb') as data:
+with open('p_13.txt', 'rb') as data:
     for line in data:
         line = line.replace('\n', '')
         matrix.append(list(line))
